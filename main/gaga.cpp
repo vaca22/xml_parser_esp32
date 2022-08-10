@@ -1,3 +1,6 @@
+//
+// Created by vaca on 8/10/22.
+//
 #include <stdio.h>
 #include <string.h>
 #include <sys/unistd.h>
@@ -9,8 +12,8 @@
 #include "esp_vfs_fat.h"
 #include "lib/tinyxml2/tinyxml2.h"
 
+#include "gaga.h"
 using namespace tinyxml2;
-
 static const char *TAG = "example";
 
 // Handle of the wear levelling library instance
@@ -18,8 +21,7 @@ static wl_handle_t s_wl_handle = WL_INVALID_HANDLE;
 
 // Mount path for the partition
 const char *base_path = "/spiflash";
-
-extern "C" void app_main(void)
+void app_main2(void)
 {
     // Do example setup
     ESP_LOGI(TAG, "Setting up...");
@@ -88,10 +90,10 @@ extern "C" void app_main(void)
 //    const char* heading_data = data.FirstChildElement("note")->FirstChildElement("heading")->GetText();
 //    const char* body_data = data.FirstChildElement("note")->FirstChildElement("body")->GetText();
 
-if(to_data){
-    ESP_LOGI(TAG, "%s",to_data);
+    if(to_data){
+        ESP_LOGI(TAG, "%s",to_data);
 
-}
+    }
 
     ESP_LOGI(TAG, "Example end");
 }
