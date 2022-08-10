@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml_result>
+  <read_sentence lan="en" type="study" version="7.0.0.1020">
+    <rec_paper>
+      <read_chapter accuracy_score="4.957704" beg_pos="0" content="house" end_pos="88" except_info="0" fluency_score="4.231972" integrity_score="5.000000" is_rejected="false" reject_type="0" score_pattern="loose" standard_score="4.540527" total_score="4.698267" word_count="1">
+        <sentence accuracy_score="4.707704" beg_pos="0" content="house" end_pos="88" fluency_score="3.990986" index="0" standard_score="4.290527" total_score="4.450971" word_count="1">
+          <word beg_pos="3" content="house" dp_message="0" end_pos="60" global_index="0" index="0" pitch="  231.08  231.08  235.75  236.25  235.38  234.63  234.22  234.08  234.46  235.28  236.22  236.86  236.87  236.37  235.43  234.35  232.97  231.14  228.64  225.85  222.88  220.51  218.81  218.03  217.91  217.93  218.02  217.48  216.44  213.56  210.50  207.54" pitch_beg="9" pitch_end="41" property="0" total_score="4.873125">
+            <syll beg_pos="3" content="hh aw s" end_pos="60" serr_msg="0" syll_accent="0" syll_score="4.792765">
+              <phone beg_pos="3" content="hh" dp_message="0" end_pos="12" gwpp="-0.048234"></phone>
+              <phone beg_pos="12" content="aw" dp_message="0" end_pos="36" gwpp="-0.019774"></phone>
+              <phone beg_pos="36" content="s" dp_message="0" end_pos="60" gwpp="-0.550658"></phone>
+            </syll>
+          </word>
+        </sentence>
+      </read_chapter>
+    </rec_paper>
+  </read_sentence>
+</xml_result>
